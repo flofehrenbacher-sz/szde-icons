@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "noEmit": true,
+    "declaration": true,
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules"]
+}

@@ -2,8 +2,21 @@
   "name": "@flofehrenbacher-sz/szde-icons",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "type-check": "tsc"
+  },
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js"
+  },
+  "peerDependencies": {
+    "react": ">18"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "react": "18.2.0"
   }
 }
