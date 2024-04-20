@@ -1,6 +1,6 @@
 {
   "name": "@flofehrenbacher-sz/szde-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
