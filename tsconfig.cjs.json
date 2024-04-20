@@ -3,7 +3,10 @@
   "compilerOptions": {
     "module": "CommonJS",
     "outDir": "./dist/cjs",
-    "noEmit": false
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "moduleResolution": "Bundler"
   },
   "include": ["src/index.ts"]
 }
