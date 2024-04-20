@@ -5,8 +5,7 @@
     "outDir": "./dist/cjs",
     "noEmit": false,
     "jsx": "react-jsx",
-    "jsxImportSource": "@emotion/react",
-    "moduleResolution": "Bundler"
+    "jsxImportSource": "@emotion/react"
   },
   "include": ["src/index.ts"]
 }
