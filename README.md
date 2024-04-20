@@ -1,0 +1,1 @@
+# szde-icons

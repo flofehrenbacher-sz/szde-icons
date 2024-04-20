@@ -3,7 +3,8 @@
     "target": "ESNext",
     "noEmit": true,
     "declaration": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "skipLibCheck": true
   },
   "exclude": ["node_modules"]
 }
